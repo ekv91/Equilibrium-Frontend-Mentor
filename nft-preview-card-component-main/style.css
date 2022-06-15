@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit';
+}
+
+body {
+    background-color: #0d1a2d;
+
+
+
+}
+
+.container {
+    position: relative;
+    height: 100vh;
+
+}
+
+.card {
+    position: absolute;
+    border-radius: 10px;
+    height: 500px;
+    width: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #15273f;
+}
+
+.image {
+    display: flex;
+
+}
+
+.image img {
+    flex: 1;
+    height: 300px;
+    width: 260px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.equi {
+    color: #fff;
+    font-size: 18px;
+    padding-left: 20px;
+    font-weight: 600;
+}
+
+.paragraph {
+    color: hsl(215, 51%, 70%);
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.details {
+    margin-top: 10px;
+}
+
+.left {
+    width: 150px
+}
+
+.left img {
+    padding: 10px 0 0 20px;
+}
+
+.left p {
+    display: inline-block;
+    padding-left: 5px;
+    color: hsl(178, 100%, 50%);
+}
+
+.right {
+    float: right;
+    margin-top: -30px;
+    padding-right: 20px;
+}
+
+.right p {
+    display: inline-block;
+    color: hsl(215, 51%, 70%);
+
+}
+
+.x {
+    margin: 0 20px;
+    color: hsl(215, 51%, 70%);
+
+}
+
+.creator {
+    display: flex;
+}
+
+.creator img {
+    width: 35px;
+    height: 35px;
+    margin-left: 20px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-top: 20px;
+
+}
+
+.creator p {
+    display: inline-block;
+    color: hsl(215, 51%, 70%);
+    margin-top: 25px;
+    margin-left: 10px;
+
+}
+
+.creator span {
+    color: #fff;
+}
